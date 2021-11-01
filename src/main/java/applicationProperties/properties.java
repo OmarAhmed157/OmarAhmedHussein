@@ -13,7 +13,7 @@ public class properties {
 
 	public static void isProduction(boolean production) {
 		chromeInstance = "";
-		seleniumChromeSourceEXEPath = System.getProperty("user.dir") +"/src/main/resources/chromedriver.exe";
+		seleniumChromeSourceEXEPath = System.getProperty("user.dir") +"/src/main/resources/chromedriver";
 		dateTimeFormatValida = "";
 		
 		//Replace "moham" with your username	
