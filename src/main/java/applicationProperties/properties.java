@@ -22,7 +22,7 @@ public class properties {
 		if(production) {
 			dataSourceFilePath = "";
 			seleniumBaseURL = "https://www.fb.com/";
-			apiBaseURL = "";
+			apiBaseURL = "https://isupply.tech/en/";
 		}
 		else {		
 			dataSourceFilePath = "";

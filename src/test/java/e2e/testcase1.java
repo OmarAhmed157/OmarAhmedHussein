@@ -4,14 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.annotations.Test;
-import utils.*;
-import sun.awt.AWTPermissions;
-import sun.awt.ComponentFactory;
-import sun.awt.SunToolkit;
-import sun.awt.image.SunWritableRaster;
-import sun.java2d.SunGraphicsEnvironment;
 
-import java.awt.*;
 
 import static utils.Selenium_Base.*;
 
@@ -33,7 +26,7 @@ public class testcase1 {
         WebElement dropdown = getChromeDriver().findElement(DropDown);
         getJavascriptExecutor().executeScript("arguments[0].click();",dropdown);
 
-        
+
 
 
         //to wait, or wait until
