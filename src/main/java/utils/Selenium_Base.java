@@ -6,8 +6,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import applicationProperties.properties;
-
 
 public class Selenium_Base {
 	static WebDriver driver;
@@ -17,9 +15,9 @@ public class Selenium_Base {
 
 	public static void Selenium_config(String URL) {
 		
-		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") +"/src/main/resources/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver",
+				System.getProperty("user.dir") +"/src/main/resources/chromedriver.exe");
 		ChromeOptions options = new ChromeOptions();
-//		options.addArguments("user-data-dir=C:/Users/moham/AppData/Local/Google/Chrome/User Data");
 		driver = new ChromeDriver(options);
 		
 		//URL
@@ -46,7 +44,7 @@ public class Selenium_Base {
 	}
 
 	
-	public void close() {
+	public static void close() {
 		driver.quit();
 	}
 	
