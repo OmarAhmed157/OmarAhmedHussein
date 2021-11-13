@@ -7,15 +7,12 @@ import org.testng.ITestResult;
 import org.testng.Reporter;
 import org.testng.TestListenerAdapter;
 
-
-
 public class TestListener extends TestListenerAdapter {
 
 	@Override
 	public void onTestFailure(ITestResult tr) {
 		Reporter.log("The test "+tr.getName()+ " is Failed "+tr.getStatus());
 		String methodName = tr.getName();
-		
 		try {
 			Selenium_Base.takeScreenShot(methodName);
 			
@@ -24,7 +21,8 @@ public class TestListener extends TestListenerAdapter {
 		} 
 		catch (IOException e) {
 			e.printStackTrace();
-		}catch (NoSuchSessionException e) {
+		}
+		catch (NoSuchSessionException e) {
 			System.out.println("No session, no UI for screenshot");
 		}
 	}
@@ -46,7 +44,8 @@ public class TestListener extends TestListenerAdapter {
 		} 
 		catch (IOException e) {
 			e.printStackTrace();
-		} catch (NoSuchSessionException e) {
+		} 
+		catch (NoSuchSessionException e) {
 			System.out.println("No session, no UI for screenshot");
 		}
 		

@@ -17,7 +17,7 @@ public class ThirdTest {
 		By DynamicLoading = By.xpath("//*[@id=\"content\"]/ul/li[14]/a");
 		By Example2 = By.xpath("/html/body/div[2]/div/div/a[2]");
 		By Start = By.xpath("/html/body/div[2]/div/div/div/button");
-		By HelloWroldText = By.xpath("/html/body/div[2]/div/div/div[1]/h4");
+		By HelloWorldText = By.xpath("/html/body/div[2]/div/div/div[1]/h4");
 		String ExpectedHelloWorldText = "Hello World!";
 
 		//Navigate to Heroku
@@ -42,12 +42,12 @@ public class ThirdTest {
 		start.click();
 
 		//Wait until Hello World text appears
-		getWebDriverWait().until(ExpectedConditions.visibilityOfElementLocated(HelloWroldText));
-		WebElement helloWroldText = getChromeDriver().findElement(HelloWroldText);
-		String ActualhelloWroldText = helloWroldText.getText();
+		getWebDriverWait().until(ExpectedConditions.visibilityOfElementLocated(HelloWorldText));
+		WebElement helloWorldText = getChromeDriver().findElement(HelloWorldText);
+		String ActualhelloWorldText = helloWorldText.getText();
 
 		//Check that the text Hello World appears successfully
-		Assert.assertEquals(ActualhelloWroldText, ExpectedHelloWorldText);
+		Assert.assertEquals(ActualhelloWorldText, ExpectedHelloWorldText);
 	}
 
 }

@@ -23,7 +23,7 @@ public class CatFactsAPI {
 		System.out.println(fullresponse);
 		
 		//Add the response to execution testng report
-		Reporter.log(this.getClass().getName() + " " +fullresponse);
+		Reporter.log(this.getClass().getName() + "\n" +fullresponse);
 		String responseNeeded = response.jsonPath().getString("text");
 		System.out.println(responseNeeded);
 

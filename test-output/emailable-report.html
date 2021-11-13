@@ -8,24 +8,45 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Listener Test Suite</th></tr>
-<tr><td><a href="#t0">testSearchGoogle</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">8,019</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">testHerokuFileUpload</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">5,671</td><td></td><td></td></tr>
-<tr><td><a href="#t2">testHerokuDynamicLoading</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">10,985</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t3">CheckTextIsNotNull</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">3,274</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">3</th><th class="num">0</th><th class="num">0</th><th class="num attn">1</th><th class="num">27,949</th><th colspan="2"></th></tr>
+<tr><th colspan="8">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">8,318</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Listener Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">testSearchGoogle &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">webGUITestAutomation.FirstTest</td><td><a href="#m0">testSearchGoogle</a></td><td rowspan="1">1636803343416</td><td rowspan="1">7103</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">testHerokuFileUpload &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">webGUITestAutomation.SecondTest</td><td><a href="#m1">testHerokuFileUpload</a></td><td rowspan="1">1636803351461</td><td rowspan="1">4851</td></tr></tbody>
-<tbody id="t2"><tr><th colspan="4">testHerokuDynamicLoading &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">webGUITestAutomation.ThirdTest</td><td><a href="#m2">testHerokuDynamicLoading</a></td><td rowspan="1">1636803357145</td><td rowspan="1">10116</td></tr></tbody>
-<tbody id="t3"><tr><th colspan="4">CheckTextIsNotNull &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">apiTestAutomation.CatFactsAPI</td><td><a href="#m3">CheckTextIsNotNull</a></td><td rowspan="1">1636803368139</td><td rowspan="1">3269</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">webGUITestAutomation.FirstTest</td><td><a href="#m0">testSearchGoogle</a></td><td rowspan="1">1636818360475</td><td rowspan="1">8246</td></tr></tbody>
 </table>
-<h2>testSearchGoogle</h2><h3 id="m0">webGUITestAutomation.FirstTest#testSearchGoogle</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">The test testSearchGoogle is Failed 2<br/><a href='C:\workspace\automationTestingFramework\src\test\resources\ScreenshotstestSearchGoogle.png'> <img src='C:\workspace\automationTestingFramework\src\test\resources\ScreenshotstestSearchGoogle.png' height='100' width='100'/> </a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+<h2>Default test</h2><h3 id="m0">webGUITestAutomation.FirstTest#testSearchGoogle</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
 	at webGUITestAutomation.FirstTest.testSearchGoogle(FirstTest.java:46)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>testHerokuFileUpload</h2><h3 id="m1">webGUITestAutomation.SecondTest#testHerokuFileUpload</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">The test testHerokuFileUpload is succeeded 1<br/><a href='C:\workspace\automationTestingFramework\src\test\resources\ScreenshotstestHerokuFileUpload.png'> <img src='C:\workspace\automationTestingFramework\src\test\resources\ScreenshotstestHerokuFileUpload.png' height='100' width='100'/> </a></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>testHerokuDynamicLoading</h2><h3 id="m2">webGUITestAutomation.ThirdTest#testHerokuDynamicLoading</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">The test testHerokuDynamicLoading is succeeded 1<br/><a href='C:\workspace\automationTestingFramework\src\test\resources\ScreenshotstestHerokuDynamicLoading.png'> <img src='C:\workspace\automationTestingFramework\src\test\resources\ScreenshotstestHerokuDynamicLoading.png' height='100' width='100'/> </a></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>CheckTextIsNotNull</h2><h3 id="m3">apiTestAutomation.CatFactsAPI#CheckTextIsNotNull</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">apiTestAutomation.CatFactsAPI {"status":{"verified":true,"sentCount":1},"_id":"5b1b4039841d9700146158d2","updatedAt":"2020-08-23T20:20:01.611Z","createdAt":"2018-06-13T20:20:03.097Z","user":"5a9ac18c7478810ea6c06381","text":"When cats bring dead animals back to their humans, they are \"teaching them to hunt\" as they would with a younger cat.","deleted":false,"source":"user","__v":0,"type":"cat","used":false}<br/>The test CheckTextIsNotNull is succeeded 1</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

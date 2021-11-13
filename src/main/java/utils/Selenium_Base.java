@@ -2,7 +2,6 @@ package utils;
 
 import java.io.File;
 import java.io.IOException;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -14,7 +13,6 @@ import org.apache.commons.io.FileUtils;
 
 public class Selenium_Base {
 	static WebDriver driver;
-	static JavascriptExecutor executor;
 	static WebDriverWait wait;
 
 
@@ -42,7 +40,7 @@ public class Selenium_Base {
 
 	public static void takeScreenShot(String testName) throws IOException {		
 			
-		String fileWithPath = new File(System.getProperty("user.dir")).getAbsolutePath() +"/src/test/resources/Screenshots";
+		String fileWithPath = new File(System.getProperty("user.dir")).getAbsolutePath() +"/src/test/resources/Screenshots/";
 
 		//Convert web driver object to TakeScreenshot
 		File SrcFile = ((TakesScreenshot)Selenium_Base.driver).getScreenshotAs(OutputType.FILE);

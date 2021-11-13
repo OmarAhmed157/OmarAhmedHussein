@@ -35,7 +35,7 @@ public class FirstTest {
 
 		//loop to get the first 3 and check that the needed text is the same of the text of the third element
 		for(int i=1;i<=3;i++) {
-
+		
 			By TheThirdElement = By.xpath(String.format("//*[@class=\"g\"][%s]/div/div/div[1]/a/h3", i));
 			getWebDriverWait().until(ExpectedConditions.visibilityOfElementLocated(TheThirdElement));
 			getWebDriverWait().until(ExpectedConditions.elementToBeClickable(TheThirdElement));
