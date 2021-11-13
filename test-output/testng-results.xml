@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-13T04:09:31 EET" name="Listener Test Suite" finished-at="2021-11-13T04:10:00 EET" duration-ms="29026">
+    <groups>
+    </groups>
+    <test started-at="2021-11-13T04:09:31 EET" name="testSearchGoogle" finished-at="2021-11-13T04:09:40 EET" duration-ms="8393">
+      <class name="webGUITestAutomation.FirstTest">
+        <test-method signature="testSearchGoogle()[pri:0, instance:webGUITestAutomation.FirstTest@44821a96]" started-at="2021-11-13T04:09:31 EET" name="testSearchGoogle" finished-at="2021-11-13T04:09:40 EET" duration-ms="8343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchGoogle -->
+      </class> <!-- webGUITestAutomation.FirstTest -->
+    </test> <!-- testSearchGoogle -->
+    <test started-at="2021-11-13T04:09:40 EET" name="testHerokuFileUpload" finished-at="2021-11-13T04:09:45 EET" duration-ms="5668">
+      <class name="webGUITestAutomation.SecondTest">
+        <test-method signature="testHerokuFileUpload()[pri:0, instance:webGUITestAutomation.SecondTest@5562c41e]" started-at="2021-11-13T04:09:40 EET" name="testHerokuFileUpload" finished-at="2021-11-13T04:09:45 EET" duration-ms="5662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHerokuFileUpload -->
+      </class> <!-- webGUITestAutomation.SecondTest -->
+    </test> <!-- testHerokuFileUpload -->
+    <test started-at="2021-11-13T04:09:45 EET" name="testHerokuDynamicLoading" finished-at="2021-11-13T04:09:57 EET" duration-ms="11603">
+      <class name="webGUITestAutomation.ThirdTest">
+        <test-method signature="testHerokuDynamicLoading()[pri:0, instance:webGUITestAutomation.ThirdTest@47faa49c]" started-at="2021-11-13T04:09:45 EET" name="testHerokuDynamicLoading" finished-at="2021-11-13T04:09:57 EET" duration-ms="11597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHerokuDynamicLoading -->
+      </class> <!-- webGUITestAutomation.ThirdTest -->
+    </test> <!-- testHerokuDynamicLoading -->
+    <test started-at="2021-11-13T04:09:57 EET" name="CheckTextIsNotNull" finished-at="2021-11-13T04:10:00 EET" duration-ms="3255">
+      <class name="apiTestAutomation.CatFactsAPI">
+        <test-method signature="CheckTextIsNotNull()[pri:0, instance:apiTestAutomation.CatFactsAPI@2b91004a]" started-at="2021-11-13T04:09:57 EET" name="CheckTextIsNotNull" finished-at="2021-11-13T04:10:00 EET" duration-ms="3253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckTextIsNotNull -->
+      </class> <!-- apiTestAutomation.CatFactsAPI -->
+    </test> <!-- CheckTextIsNotNull -->
+  </suite> <!-- Listener Test Suite -->
+</testng-results>

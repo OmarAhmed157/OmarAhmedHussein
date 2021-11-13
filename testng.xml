@@ -4,13 +4,24 @@
     <listeners>
         <listener class-name="utils.TestListener"></listener>
     </listeners>
-    <test name="test1">
-
-
-
-
+    <test name="testSearchGoogle">
         <classes>
-            <class name="api.TestAPI"></class>
+            <class name="webGUITestAutomation.FirstTest"></class>
+        </classes>
+    </test>
+    <test name="testHerokuFileUpload">
+        <classes>
+            <class name="webGUITestAutomation.SecondTest"></class>
+        </classes>
+    </test>
+    <test name="testHerokuDynamicLoading">
+        <classes>
+            <class name="webGUITestAutomation.ThirdTest"></class>
+        </classes>
+    </test>
+    <test name="CheckTextIsNotNull">
+        <classes>
+            <class name="apiTestAutomation.CatFactsAPI"></class>
         </classes>
     </test>
 </suite>

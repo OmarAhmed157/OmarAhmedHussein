@@ -20,11 +20,9 @@ public class Selenium_Base {
 		ChromeOptions options = new ChromeOptions();
 		driver = new ChromeDriver(options);
 		
-		//URL
 		driver.navigate().to(URL);
 
-		executor = (JavascriptExecutor) driver;
-		wait = new WebDriverWait(driver, 60);
+		wait = new WebDriverWait(driver, 30);
 		driver.manage().window().maximize();
 	}
 
@@ -32,12 +30,6 @@ public class Selenium_Base {
 	public static WebDriver getChromeDriver() {
 		return driver;
 	}
-	
-	
-	public static JavascriptExecutor getJavascriptExecutor() {
-		return executor;
-	}
-	
 	
 	public static WebDriverWait getWebDriverWait() {
 		return wait;
