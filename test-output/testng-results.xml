@@ -1,13 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
   <reporter-output>
+    <line>
+      <![CDATA[The test testSearchGoogle is Failed 2]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\eclipse-workspace\OmarAhmedHussein\src\test\resources\Screenshots\testSearchGoogle.png'> <img src='C:\eclipse-workspace\OmarAhmedHussein\src\test\resources\Screenshots\testSearchGoogle.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[The test testHerokuFileUpload is succeeded 1]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\eclipse-workspace\OmarAhmedHussein\src\test\resources\Screenshots\testHerokuFileUpload.png'> <img src='C:\eclipse-workspace\OmarAhmedHussein\src\test\resources\Screenshots\testHerokuFileUpload.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[The test testHerokuDynamicLoading is succeeded 1]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\eclipse-workspace\OmarAhmedHussein\src\test\resources\Screenshots\testHerokuDynamicLoading.png'> <img src='C:\eclipse-workspace\OmarAhmedHussein\src\test\resources\Screenshots\testHerokuDynamicLoading.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[apiTestAutomation.CatFactsAPI
+{"status":{"verified":true,"sentCount":1},"_id":"58e00b3a0aac31001185ed20","user":"58e007480aac31001185ecef","text":"Polydactyl cats are also referred to as \"Hemingway cats\" because the author was so fond of them.","__v":0,"source":"user","updatedAt":"2020-08-23T20:20:01.611Z","type":"cat","createdAt":"2018-02-17T21:41:52.585Z","deleted":false,"used":false}]]>
+    </line>
+    <line>
+      <![CDATA[The test CheckTextIsNotNull is succeeded 1]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8318" started-at="2021-11-13T17:46:00 EET" finished-at="2021-11-13T17:46:08 EET">
+  <suite name="Listener Test Suite" duration-ms="34745" started-at="2021-11-13T18:02:37 EET" finished-at="2021-11-13T18:03:11 EET">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8318" started-at="2021-11-13T17:46:00 EET" finished-at="2021-11-13T17:46:08 EET">
+    <test name="testSearchGoogle" duration-ms="10290" started-at="2021-11-13T18:02:37 EET" finished-at="2021-11-13T18:02:47 EET">
       <class name="webGUITestAutomation.FirstTest">
-        <test-method status="FAIL" signature="testSearchGoogle()[pri:0, instance:webGUITestAutomation.FirstTest@42f93a98]" name="testSearchGoogle" duration-ms="8246" started-at="2021-11-13T17:46:00 EET" finished-at="2021-11-13T17:46:08 EET">
+        <test-method status="FAIL" signature="testSearchGoogle()[pri:0, instance:webGUITestAutomation.FirstTest@587d1d39]" name="testSearchGoogle" duration-ms="9279" started-at="2021-11-13T18:02:37 EET" finished-at="2021-11-13T18:02:46 EET">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -51,9 +76,58 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
+            <line>
+              <![CDATA[The test testSearchGoogle is Failed 2]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\eclipse-workspace\OmarAhmedHussein\src\test\resources\Screenshots\testSearchGoogle.png'> <img src='C:\eclipse-workspace\OmarAhmedHussein\src\test\resources\Screenshots\testSearchGoogle.png' height='100' width='100'/> </a>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- testSearchGoogle -->
       </class> <!-- webGUITestAutomation.FirstTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- testSearchGoogle -->
+    <test name="testHerokuFileUpload" duration-ms="7563" started-at="2021-11-13T18:02:47 EET" finished-at="2021-11-13T18:02:55 EET">
+      <class name="webGUITestAutomation.SecondTest">
+        <test-method status="PASS" signature="testHerokuFileUpload()[pri:0, instance:webGUITestAutomation.SecondTest@7a30d1e6]" name="testHerokuFileUpload" duration-ms="6759" started-at="2021-11-13T18:02:47 EET" finished-at="2021-11-13T18:02:54 EET">
+          <reporter-output>
+            <line>
+              <![CDATA[The test testHerokuFileUpload is succeeded 1]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\eclipse-workspace\OmarAhmedHussein\src\test\resources\Screenshots\testHerokuFileUpload.png'> <img src='C:\eclipse-workspace\OmarAhmedHussein\src\test\resources\Screenshots\testHerokuFileUpload.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testHerokuFileUpload -->
+      </class> <!-- webGUITestAutomation.SecondTest -->
+    </test> <!-- testHerokuFileUpload -->
+    <test name="testHerokuDynamicLoading" duration-ms="12670" started-at="2021-11-13T18:02:55 EET" finished-at="2021-11-13T18:03:07 EET">
+      <class name="webGUITestAutomation.ThirdTest">
+        <test-method status="PASS" signature="testHerokuDynamicLoading()[pri:0, instance:webGUITestAutomation.ThirdTest@28ac3dc3]" name="testHerokuDynamicLoading" duration-ms="11125" started-at="2021-11-13T18:02:55 EET" finished-at="2021-11-13T18:03:06 EET">
+          <reporter-output>
+            <line>
+              <![CDATA[The test testHerokuDynamicLoading is succeeded 1]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\eclipse-workspace\OmarAhmedHussein\src\test\resources\Screenshots\testHerokuDynamicLoading.png'> <img src='C:\eclipse-workspace\OmarAhmedHussein\src\test\resources\Screenshots\testHerokuDynamicLoading.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testHerokuDynamicLoading -->
+      </class> <!-- webGUITestAutomation.ThirdTest -->
+    </test> <!-- testHerokuDynamicLoading -->
+    <test name="CheckTextIsNotNull" duration-ms="4145" started-at="2021-11-13T18:03:07 EET" finished-at="2021-11-13T18:03:11 EET">
+      <class name="apiTestAutomation.CatFactsAPI">
+        <test-method status="PASS" signature="CheckTextIsNotNull()[pri:0, instance:apiTestAutomation.CatFactsAPI@7403c468]" name="CheckTextIsNotNull" duration-ms="4122" started-at="2021-11-13T18:03:07 EET" finished-at="2021-11-13T18:03:11 EET">
+          <reporter-output>
+            <line>
+              <![CDATA[apiTestAutomation.CatFactsAPI
+{"status":{"verified":true,"sentCount":1},"_id":"58e00b3a0aac31001185ed20","user":"58e007480aac31001185ecef","text":"Polydactyl cats are also referred to as \"Hemingway cats\" because the author was so fond of them.","__v":0,"source":"user","updatedAt":"2020-08-23T20:20:01.611Z","type":"cat","createdAt":"2018-02-17T21:41:52.585Z","deleted":false,"used":false}]]>
+            </line>
+            <line>
+              <![CDATA[The test CheckTextIsNotNull is succeeded 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CheckTextIsNotNull -->
+      </class> <!-- apiTestAutomation.CatFactsAPI -->
+    </test> <!-- CheckTextIsNotNull -->
+  </suite> <!-- Listener Test Suite -->
 </testng-results>
