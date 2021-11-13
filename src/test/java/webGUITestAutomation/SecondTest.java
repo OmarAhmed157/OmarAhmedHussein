@@ -17,7 +17,7 @@ public class SecondTest {
 		By FileUpload = By.xpath("//*[@id=\"content\"]/ul/li[18]/a");
 		By ChooseFile = By.xpath("//*[@id=\"file-upload\"]");
 		By Upload = By.xpath("//*[@id=\"file-submit\"]");
-		String ImagePath = System.getProperty("user.dir") +"/src/main/resources/Terkwaz.jpg";
+		String ImagePath = System.getProperty("user.dir") +"/src/test/resources/ImageUsedInSecondTask/Terkwaz.jpg";
 		String ExpectedFile = "Terkwaz.jpg";
 		By FileUploadedSuccessfully = By.xpath("//*[@id=\"uploaded-files\"]");
 

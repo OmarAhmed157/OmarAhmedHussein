@@ -42,7 +42,7 @@ public class Selenium_Base {
 
 	public static void takeScreenShot(String testName) throws IOException {		
 			
-		String fileWithPath = new File(System.getProperty("user.dir")).getAbsolutePath() +"/src/test/resources/";
+		String fileWithPath = new File(System.getProperty("user.dir")).getAbsolutePath() +"/src/test/resources/Screenshots";
 
 		//Convert web driver object to TakeScreenshot
 		File SrcFile = ((TakesScreenshot)Selenium_Base.driver).getScreenshotAs(OutputType.FILE);
@@ -57,7 +57,6 @@ public class Selenium_Base {
         Reporter.log("<a href='"+ DestFile.getAbsolutePath() + "'> <img src='"+ DestFile.getAbsolutePath() + "' height='100' width='100'/> </a>");
 
 	}
-
 
 	public static void close() {
 		driver.quit();

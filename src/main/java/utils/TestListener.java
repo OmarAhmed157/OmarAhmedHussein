@@ -1,7 +1,6 @@
 package utils;
 
 import static utils.Selenium_Base.close;
-
 import java.io.IOException;
 import org.openqa.selenium.NoSuchSessionException;
 import org.testng.ITestResult;
@@ -44,7 +43,8 @@ public class TestListener extends TestListenerAdapter {
 			
 			//Close the browser
 			close();
-		} catch (IOException e) {
+		} 
+		catch (IOException e) {
 			e.printStackTrace();
 		} catch (NoSuchSessionException e) {
 			System.out.println("No session, no UI for screenshot");

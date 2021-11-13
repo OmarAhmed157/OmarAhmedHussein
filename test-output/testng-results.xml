@@ -1,13 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[The test testSearchGoogle is Failed 2]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\workspace\automationTestingFramework\src\test\resources\ScreenshotstestSearchGoogle.png'> <img src='C:\workspace\automationTestingFramework\src\test\resources\ScreenshotstestSearchGoogle.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[The test testHerokuFileUpload is succeeded 1]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\workspace\automationTestingFramework\src\test\resources\ScreenshotstestHerokuFileUpload.png'> <img src='C:\workspace\automationTestingFramework\src\test\resources\ScreenshotstestHerokuFileUpload.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[The test testHerokuDynamicLoading is succeeded 1]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\workspace\automationTestingFramework\src\test\resources\ScreenshotstestHerokuDynamicLoading.png'> <img src='C:\workspace\automationTestingFramework\src\test\resources\ScreenshotstestHerokuDynamicLoading.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[apiTestAutomation.CatFactsAPI {"status":{"verified":true,"sentCount":1},"_id":"5b1b4039841d9700146158d2","updatedAt":"2020-08-23T20:20:01.611Z","createdAt":"2018-06-13T20:20:03.097Z","user":"5a9ac18c7478810ea6c06381","text":"When cats bring dead animals back to their humans, they are \"teaching them to hunt\" as they would with a younger cat.","deleted":false,"source":"user","__v":0,"type":"cat","used":false}]]>
+    </line>
+    <line>
+      <![CDATA[The test CheckTextIsNotNull is succeeded 1]]>
+    </line>
   </reporter-output>
-  <suite started-at="2021-11-13T07:13:20 EET" name="Default suite" finished-at="2021-11-13T07:13:26 EET" duration-ms="5976">
+  <suite started-at="2021-11-13T13:35:43 EET" name="Listener Test Suite" finished-at="2021-11-13T13:36:11 EET" duration-ms="28035">
     <groups>
     </groups>
-    <test started-at="2021-11-13T07:13:20 EET" name="Default test" finished-at="2021-11-13T07:13:26 EET" duration-ms="5976">
+    <test started-at="2021-11-13T13:35:43 EET" name="testSearchGoogle" finished-at="2021-11-13T13:35:51 EET" duration-ms="8019">
       <class name="webGUITestAutomation.FirstTest">
-        <test-method signature="testSearchGoogle()[pri:0, instance:webGUITestAutomation.FirstTest@272ed83b]" started-at="2021-11-13T07:13:20 EET" name="testSearchGoogle" finished-at="2021-11-13T07:13:26 EET" duration-ms="5934" status="FAIL">
+        <test-method signature="testSearchGoogle()[pri:0, instance:webGUITestAutomation.FirstTest@1e6454ec]" started-at="2021-11-13T13:35:43 EET" name="testSearchGoogle" finished-at="2021-11-13T13:35:50 EET" duration-ms="7103" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -18,7 +42,7 @@ at org.testng.Assert.fail(Assert.java:99)
 at org.testng.Assert.failNotEquals(Assert.java:1037)
 at org.testng.Assert.assertTrue(Assert.java:45)
 at org.testng.Assert.assertTrue(Assert.java:55)
-at webGUITestAutomation.FirstTest.testSearchGoogle(FirstTest.java:65)
+at webGUITestAutomation.FirstTest.testSearchGoogle(FirstTest.java:46)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -51,9 +75,57 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
+            <line>
+              <![CDATA[The test testSearchGoogle is Failed 2]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\workspace\automationTestingFramework\src\test\resources\ScreenshotstestSearchGoogle.png'> <img src='C:\workspace\automationTestingFramework\src\test\resources\ScreenshotstestSearchGoogle.png' height='100' width='100'/> </a>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- testSearchGoogle -->
       </class> <!-- webGUITestAutomation.FirstTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- testSearchGoogle -->
+    <test started-at="2021-11-13T13:35:51 EET" name="testHerokuFileUpload" finished-at="2021-11-13T13:35:57 EET" duration-ms="5671">
+      <class name="webGUITestAutomation.SecondTest">
+        <test-method signature="testHerokuFileUpload()[pri:0, instance:webGUITestAutomation.SecondTest@4229bb3f]" started-at="2021-11-13T13:35:51 EET" name="testHerokuFileUpload" finished-at="2021-11-13T13:35:56 EET" duration-ms="4851" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[The test testHerokuFileUpload is succeeded 1]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\workspace\automationTestingFramework\src\test\resources\ScreenshotstestHerokuFileUpload.png'> <img src='C:\workspace\automationTestingFramework\src\test\resources\ScreenshotstestHerokuFileUpload.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testHerokuFileUpload -->
+      </class> <!-- webGUITestAutomation.SecondTest -->
+    </test> <!-- testHerokuFileUpload -->
+    <test started-at="2021-11-13T13:35:57 EET" name="testHerokuDynamicLoading" finished-at="2021-11-13T13:36:08 EET" duration-ms="10985">
+      <class name="webGUITestAutomation.ThirdTest">
+        <test-method signature="testHerokuDynamicLoading()[pri:0, instance:webGUITestAutomation.ThirdTest@35aea049]" started-at="2021-11-13T13:35:57 EET" name="testHerokuDynamicLoading" finished-at="2021-11-13T13:36:07 EET" duration-ms="10116" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[The test testHerokuDynamicLoading is succeeded 1]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\workspace\automationTestingFramework\src\test\resources\ScreenshotstestHerokuDynamicLoading.png'> <img src='C:\workspace\automationTestingFramework\src\test\resources\ScreenshotstestHerokuDynamicLoading.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testHerokuDynamicLoading -->
+      </class> <!-- webGUITestAutomation.ThirdTest -->
+    </test> <!-- testHerokuDynamicLoading -->
+    <test started-at="2021-11-13T13:36:08 EET" name="CheckTextIsNotNull" finished-at="2021-11-13T13:36:11 EET" duration-ms="3274">
+      <class name="apiTestAutomation.CatFactsAPI">
+        <test-method signature="CheckTextIsNotNull()[pri:0, instance:apiTestAutomation.CatFactsAPI@611889f4]" started-at="2021-11-13T13:36:08 EET" name="CheckTextIsNotNull" finished-at="2021-11-13T13:36:11 EET" duration-ms="3269" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[apiTestAutomation.CatFactsAPI {"status":{"verified":true,"sentCount":1},"_id":"5b1b4039841d9700146158d2","updatedAt":"2020-08-23T20:20:01.611Z","createdAt":"2018-06-13T20:20:03.097Z","user":"5a9ac18c7478810ea6c06381","text":"When cats bring dead animals back to their humans, they are \"teaching them to hunt\" as they would with a younger cat.","deleted":false,"source":"user","__v":0,"type":"cat","used":false}]]>
+            </line>
+            <line>
+              <![CDATA[The test CheckTextIsNotNull is succeeded 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CheckTextIsNotNull -->
+      </class> <!-- apiTestAutomation.CatFactsAPI -->
+    </test> <!-- CheckTextIsNotNull -->
+  </suite> <!-- Listener Test Suite -->
 </testng-results>

@@ -1,6 +1,7 @@
 package apiTestAutomation;
 
 import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 import io.restassured.response.Response;
 import utils.RestAssured_Base;
@@ -18,6 +19,11 @@ public class CatFactsAPI {
 
 		//Get text value
 		int responseCode = response.getStatusCode();
+		String fullresponse = response.asString();
+		System.out.println(fullresponse);
+		
+		//Add the response to execution testng report
+		Reporter.log(this.getClass().getName() + " " +fullresponse);
 		String responseNeeded = response.jsonPath().getString("text");
 		System.out.println(responseNeeded);
 
