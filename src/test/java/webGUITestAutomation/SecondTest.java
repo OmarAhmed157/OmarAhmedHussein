@@ -1,6 +1,5 @@
 package webGUITestAutomation;
 
-import static utils.Selenium_Base.close;
 import static utils.Selenium_Base.getChromeDriver;
 import static utils.Selenium_Base.getWebDriverWait;
 import org.openqa.selenium.By;
@@ -51,8 +50,5 @@ public class SecondTest {
 
 		//Assert that the image uploaded successfully
 		Assert.assertEquals(ActualFile, ExpectedFile);
-
-		//Close the browser
-		close();
 	}
 }
